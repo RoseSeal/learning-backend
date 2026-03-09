@@ -1,6 +1,6 @@
 # LeetCode Roadmap
 
-## Round 1
+## Round 1 Binary Search
 - [x] 704. Binary Search
 - [x] 35. Search Insert Position
 - [x] 34. Find First and Last Position of Element in Sorted Array
@@ -16,7 +16,7 @@
 - [x] 1011. Capacity To Ship Packages Within D Days
 - [x] 410. Split Array Largest Sum
 
-## Round 2
+## Round 2 Prefix Sum & Difference Array
 - [x] 303. Range Sum Query - Immutable
 - [x] 304. Range Sum Query 2D - Immutable
 - [x] 1109. Corporate Flight Bookings
@@ -32,7 +32,7 @@
 - [x] 930. Binary Subarrays With Sum
 - [x] 1371. Find the Longest Substring Containing Vowels in Even Counts
 
-## Round 3
+## Round 3 Heap / Priority Queue
 - [x] 215. Kth Largest Element in an Array
 - [x] 703. Kth Largest Element in a Stream
 - [x] 1046. Last Stone Weight
@@ -48,7 +48,7 @@
 - [x] 355. Design Twitter
 - [x] 480. Sliding Window Median
 
-## Round 4
+## Round 4 Trie & Bit Manipulation
 - [x] 208. Implement Trie (Prefix Tree)
 - [ ] 136. Single Number
 - [ ] 191. Number of 1 Bits
@@ -64,7 +64,7 @@
 - [ ] 338. Counting Bits
 - [ ] 1707. Maximum XOR With an Element From Array
 
-## Round 5
+## Round 5 System Design Problems
 - [ ] 155. Min Stack
 - [ ] 225. Implement Stack using Queues
 - [ ] 232. Implement Queue using Stacks
@@ -80,7 +80,7 @@
 - [ ] 173. Binary Search Tree Iterator
 - [ ] 1381. Design a Stack With Increment Operation
 
-## Round 6
+## Round 6 Sliding Window (Advanced)
 - [ ] 3. Longest Substring Without Repeating Characters
 - [ ] 209. Minimum Size Subarray Sum
 - [ ] 904. Fruit Into Baskets
@@ -96,7 +96,7 @@
 - [ ] 395. Longest Substring with At Least K Repeating Characters
 - [ ] 992. Subarrays with K Different Integers
 
-## Round 7
+## Round 7 Graph BFS / DFS (Advanced)
 - [ ] 200. Number of Islands
 - [ ] 695. Max Area of Island
 - [ ] 733. Flood Fill
@@ -112,7 +112,7 @@
 - [ ] 815. Bus Routes
 - [ ] 1091. Shortest Path in Binary Matrix
 
-## Round 8
+## Round 8 Topological Sort & Shortest Path
 - [ ] 207. Course Schedule
 - [ ] 210. Course Schedule II
 - [ ] 743. Network Delay Time
@@ -128,7 +128,7 @@
 - [ ] 1631. Path With Minimum Effort
 - [ ] 882. Reachable Nodes In Subdivided Graph
 
-## Round 9
+## Round 9 Union-Find (Disjoint Set)
 - [ ] 684. Redundant Connection
 - [ ] 547. Number of Provinces
 - [ ] 990. Satisfiability of Equality Equations
@@ -144,7 +144,7 @@
 - [ ] 1202. Smallest String With Swaps
 - [ ] 959. Regions Cut By Slashes
 
-## Round 10
+## Round 10 DP — Knapsack & State Compression
 - [ ] 416. Partition Equal Subset Sum
 - [ ] 494. Target Sum
 - [ ] 322. Coin Change
@@ -160,7 +160,7 @@
 - [ ] 1681. Minimum Incompatibility
 - [ ] 943. Find the Shortest Superstring
 
-## Round 11
+## Round 11 DP — Interval DP & Game Theory
 - [ ] 516. Longest Palindromic Subsequence
 - [ ] 647. Palindromic Substrings
 - [ ] 5. Longest Palindromic Substring
@@ -176,7 +176,7 @@
 - [ ] 1563. Stone Game V
 - [ ] 375. Guess Number Higher or Lower II
 
-## Round 12
+## Round 12 DP — String DP
 - [ ] 1143. Longest Common Subsequence
 - [ ] 72. Edit Distance
 - [ ] 583. Delete Operation for Two Strings
@@ -192,7 +192,7 @@
 - [ ] 1092. Shortest Common Supersequence 
 - [ ] 1216. Valid Palindrome III
 
-## Round 13
+## Round 13 Monotonic Stack & Monotonic Queue
 - [ ] 739. Daily Temperatures
 - [ ] 496. Next Greater Element I
 - [ ] 503. Next Greater Element II
@@ -208,7 +208,7 @@
 - [ ] 1944. Number of Visible People in a Queue
 - [ ] 862. Shortest Subarray with Sum at Least K
 
-## Round 14
+## Round 14 Review & Mock Practice
 - [ ] 4. Median of Two Sorted Arrays
 - [ ] 6. Zigzag Conversion
 - [ ] 454. 4Sum II
@@ -224,7 +224,7 @@
 - [ ] 41. First Missing Positive
 - [ ] 287. Find the Duplicate Number
 
-## Round 15
+## Round 15 ByteDance High-Frequency Problems
 - [ ] 3. Longest Substring Without Repeating Characters
 - [ ] 206. Reverse Linked List
 - [ ] 146. LRU Cache
@@ -240,7 +240,7 @@
 - [ ] 121. Best Time to Buy and Sell Stock
 - [ ] 92. Reverse Linked List II
 
-## Round 16
+## Round 16 ByteDance High-Frequency Problems
 - [ ] 415. Add Strings
 - [ ] 43. Multiply Strings
 - [ ] 54. Spiral Matrix
@@ -256,7 +256,7 @@
 - [ ] 129. Sum Root to Leaf Numbers
 - [ ] 165. Compare Version Numbers
 
-## Round 17
+## Round 17 Tencent High-Frequency Problems
 - [ ] 5. Longest Palindromic Substring
 - [ ] 7. Reverse Integer
 - [ ] 9. Palindrome Number
@@ -272,7 +272,7 @@
 - [ ] 23. Merge k Sorted Lists
 - [ ] 239. Sliding Window Maximum
 
-## Round 18
+## Round 18 Tencent High-Frequency Problems 
 - [ ] 295. Find Median from Data Stream
 - [ ] 76. Minimum Window Substring
 - [ ] 124. Binary Tree Maximum Path Sum
@@ -288,7 +288,7 @@
 - [ ] 394. Decode String
 - [ ] 32. Longest Valid Parentheses
 
-## Round 19
+## Round 19 Big Tech High-Frequency Problems
 - [ ] 10. Regular Expression Matching
 - [ ] 4. Median of Two Sorted Arrays
 - [ ] 218. The Skyline Problem
