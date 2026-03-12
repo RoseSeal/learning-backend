@@ -54,7 +54,7 @@
 - [x] 191. Number of 1 Bits [Easy]
 - [x] 231. Power of Two [Easy]
 - [x] 211. Design Add and Search Words Data Structure [Medium]
-- [ ] 648. Replace Words [Medium]
+- [x] 648. Replace Words [Medium]
 - [ ] 677. Map Sum Pairs [Medium]
 - [ ] 137. Single Number II [Medium]
 - [ ] 260. Single Number III [Medium]
