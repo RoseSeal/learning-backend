@@ -61,7 +61,7 @@
 - [x] 212. Word Search II [Hard]
 - [o] 421. Maximum XOR of Two Numbers in an Array [Medium]
 - [x] 318. Maximum Product of Word Lengths [Medium]
-- [ ] 338. Counting Bits [Easy]
+- [x] 338. Counting Bits [Easy]
 - [x] 1707. Maximum XOR With an Element From Array [Hard]
 
 ## Round 5 System Design Problems
