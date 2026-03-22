@@ -1,39 +1,22 @@
-# LeetCode Practice Repository
+# README.md
 
-This repository tracks my LeetCode training plan and solutions.
+# LeetCode Roadmap
+
+A Java-based LeetCode repository built for internship interview preparation.
 
 ## Goal
-
-- Build strong interview problem-solving skills.
-- Follow a long-term roadmap with topic-based rounds.
-- Keep daily progress stable and review weak areas first.
+Build a high-ROI problem-solving system for top-tier tech interviews, with focus on:
+- strong coverage of high-frequency patterns
+- stable recall and implementation
+- long-term maintainability
 
 ## Structure
+- `ROADMAP.md` - main problem roadmap
+- `EXECUTION.md` - minimal execution rules
+- `templates/` - note and code templates
+- topic folders - solutions and notes
+- `00_legacy_archived/` - archived content
 
-- `ROADMAP.md`: Full problem roadmap with completion status.
-- `EXECUTION.md`: Execution strategy, milestones, and study rules.
-- `03_heap_priority_queue/`: Heap and priority queue problems.
-- `04_trie_and_bit/`: Trie and bit manipulation problems.
-- `00_legacy_archived/`: Archived old materials.
-- `templates/`: Reusable templates.
-
-Each problem folder usually contains:
-
-- `README.md`: Notes, key ideas, complexity, and pitfalls.
-- `solution*.java`: One or more Java implementations.
-
-## Current Focus
-
-- Heap / priority queue advanced patterns: completed for current batch.
-- Trie practice: in progress.
-
-## How I Use This Repo
-
-1. Pick a problem from `ROADMAP.md`.
-2. Implement and debug until accepted.
-3. Refactor for readability.
-4. Write short notes in the problem `README.md`.
-
-## Language
-
-- Primary language: Java.
+## Status Marks
+- `[x]` solved
+- `[ ]` unsolved
