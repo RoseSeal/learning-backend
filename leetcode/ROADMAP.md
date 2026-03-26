@@ -76,7 +76,7 @@
 - [x] 76. Minimum Window Substring [Hard]
 - [x] 567. Permutation in String [Medium]
 - [x] 1004. Max Consecutive Ones III [Medium]
-- [ ] 424. Longest Repeating Character Replacement [Medium]
+- [x] 424. Longest Repeating Character Replacement [Medium]
 - [ ] 1208. Get Equal Substrings Within Budget [Medium]
 - [ ] 159. Longest Substring with At Most Two Distinct Characters [Medium]
 - [ ] 340. Longest Substring with At Most K Distinct Characters [Medium]
