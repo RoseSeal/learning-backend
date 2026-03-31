@@ -83,12 +83,12 @@
 - [x] 992. Subarrays with K Different Integers [Hard]
 - [x] 1456. Maximum Number of Vowels in a Substring of Given Length [Medium]
 - [x] 713. Subarray Product Less Than K [Medium]
-- [ ] 643. Maximum Average Subarray I [Easy]
+- [x] 643. Maximum Average Subarray I [Easy]
 
 ## Round 6 Array / Hash / Two Pointers
 - [x] 1. Two Sum [Easy]
 - [x] 15. 3Sum [Medium]
-- [ ] 18. 4Sum [Medium]
+- [x] 18. 4Sum [Medium]
 - [x] 49. Group Anagrams [Medium]
 - [x] 128. Longest Consecutive Sequence [Medium]
 - [x] 217. Contains Duplicate [Easy]
@@ -101,15 +101,15 @@
 - [x] 189. Rotate Array [Medium]
 - [x] 283. Move Zeroes [Easy]
 - [x] 977. Squares of a Sorted Array [Easy]
-- [ ] 16. 3Sum Closest
-- [ ] 167. Two Sum II - Input Array Is Sorted
-- [ ] 268. Missing Number
-- [ ] 36. Valid Sudoku
-- [ ] 274. H-Index
-- [ ] 334. Increasing Triplet Subsequence
-- [ ] 443. String Compression
-- [ ] 581. Shortest Unsorted Continuous Subarray
-- [ ] 442. Find All Duplicates in an Array
+- [ ] 16. 3Sum Closest [Medium]
+- [ ] 167. Two Sum II - Input Array Is Sorted [Medium]
+- [ ] 268. Missing Number [Easy]
+- [ ] 36. Valid Sudoku [Medium]
+- [ ] 274. H-Index [Medium]
+- [ ] 334. Increasing Triplet Subsequence [Medium]
+- [ ] 443. String Compression [Medium]
+- [ ] 581. Shortest Unsorted Continuous Subarray [Medium]
+- [ ] 442. Find All Duplicates in an Array [Medium]
 
 
 ## Round 7 Linked List
