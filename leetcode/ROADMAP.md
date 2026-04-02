@@ -102,7 +102,7 @@
 - [x] 283. Move Zeroes [Easy]
 - [x] 977. Squares of a Sorted Array [Easy]
 - [x] 16. 3Sum Closest [Medium]
-- [ ] 167. Two Sum II - Input Array Is Sorted [Medium]
+- [x] 167. Two Sum II - Input Array Is Sorted [Medium]
 - [x] 268. Missing Number [Easy]
 - [ ] 36. Valid Sudoku [Medium]
 - [ ] 274. H-Index [Medium]
