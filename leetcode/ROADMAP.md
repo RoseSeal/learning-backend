@@ -424,7 +424,7 @@
 - [ ] 25. Reverse Nodes in k-Group [Hard]
 - [x] 42. Trapping Rain Water [Hard]
 - [x] 72. Edit Distance [Medium]
-- [ ] 124. Binary Tree Maximum Path Sum [Hard]
+- [x] 124. Binary Tree Maximum Path Sum [Hard]
 - [x] 139. Word Break [Medium]
 - [ ] 200. Number of Islands [Medium]
 - [ ] 208. Implement Trie (Prefix Tree) [Medium]
