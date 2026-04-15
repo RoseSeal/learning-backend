@@ -420,13 +420,13 @@
 - [ ] 322. Coin Change [Medium]
 
 ## Round 25 ByteDance 高频复刷 II
-- [ ] 23. Merge k Sorted Lists [Hard]
+- [x] 23. Merge k Sorted Lists [Hard]
 - [x] 25. Reverse Nodes in k-Group [Hard]
 - [x] 42. Trapping Rain Water [Hard]
 - [x] 72. Edit Distance [Medium]
 - [x] 124. Binary Tree Maximum Path Sum [Hard]
 - [x] 139. Word Break [Medium]
-- [ ] 200. Number of Islands [Medium]
+- [x] 200. Number of Islands [Medium]
 - [ ] 208. Implement Trie (Prefix Tree) [Medium]
 - [ ] 253. Meeting Rooms II [Medium]
 - [ ] 295. Find Median from Data Stream [Hard]
