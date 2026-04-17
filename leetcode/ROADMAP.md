@@ -219,7 +219,7 @@
 - [x] 695. Max Area of Island [Medium]
 - [ ] 733. Flood Fill [Easy]
 - [x/r] 542. 01 Matrix [Medium]
-- [ ] 994. Rotting Oranges [Medium]
+- [x] 994. Rotting Oranges [Medium]
 - [ ] 1162. As Far from Land as Possible [Medium]
 - [ ] 417. Pacific Atlantic Water Flow [Medium]
 - [ ] 130. Surrounded Regions [Medium]
