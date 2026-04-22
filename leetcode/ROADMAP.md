@@ -223,7 +223,7 @@
 - [x] 1162. As Far from Land as Possible [Medium]
 - [x/r] 417. Pacific Atlantic Water Flow [Medium]
 - [x] 130. Surrounded Regions [Medium]
-- [ ] 529. Minesweeper [Medium]
+- [x] 529. Minesweeper [Medium]
 - [ ] 127. Word Ladder [Hard]
 - [r] 752. Open the Lock [Medium]
 - [ ] 1091. Shortest Path in Binary Matrix [Medium]
