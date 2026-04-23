@@ -224,7 +224,7 @@
 - [x/r] 417. Pacific Atlantic Water Flow [Medium]
 - [x] 130. Surrounded Regions [Medium]
 - [x] 529. Minesweeper [Medium]
-- [ ] 127. Word Ladder [Hard]
+- [x/r] 127. Word Ladder [Hard]
 - [r] 752. Open the Lock [Medium]
 - [ ] 1091. Shortest Path in Binary Matrix [Medium]
 - [ ] 909. Snakes and Ladders [Medium]
