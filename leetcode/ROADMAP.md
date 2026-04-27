@@ -228,7 +228,7 @@
 - [r] 752. Open the Lock [Medium]
 - [x] 1091. Shortest Path in Binary Matrix [Medium]
 - [x/r] 909. Snakes and Ladders [Medium]
-- [ ] 934. Shortest Bridge [Medium]
+- [x] 934. Shortest Bridge [Medium]
 - [ ] 1293. Shortest Path in a Grid with Obstacles Elimination [Hard]
 - [ ] 286. Walls and Gates [Medium]
 
