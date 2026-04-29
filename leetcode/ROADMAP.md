@@ -21,7 +21,7 @@
 - [x] 303. Range Sum Query - Immutable [Easy]
 - [x] 304. Range Sum Query 2D - Immutable [Medium]
 - [x] 1109. Corporate Flight Bookings [Medium]
-- [o] 370. Range Addition [Medium]
+- [-] 370. Range Addition [Medium]
 - [x] 560. Subarray Sum Equals K [Medium]
 - [x] 523. Continuous Subarray Sum [Medium]
 - [x] 525. Contiguous Array [Medium]
@@ -44,7 +44,7 @@
 - [x] 373. Find K Pairs with Smallest Sums [Medium]
 - [x] 378. Kth Smallest Element in a Sorted Matrix [Medium]
 - [x] 692. Top K Frequent Words [Medium]
-- [o] 253. Meeting Rooms II [Medium]
+- [-] 253. Meeting Rooms II [Medium]
 - [x] 621. Task Scheduler [Medium]
 - [x] 767. Reorganize String [Medium]
 - [x] 355. Design Twitter [Medium]
@@ -78,8 +78,8 @@
 - [x] 1004. Max Consecutive Ones III [Medium]
 - [x] 424. Longest Repeating Character Replacement [Medium]
 - [x] 1208. Get Equal Substrings Within Budget [Medium]
-- [o] 159. Longest Substring with At Most Two Distinct Characters [Medium]
-- [o] 340. Longest Substring with At Most K Distinct Characters [Medium]
+- [-] 159. Longest Substring with At Most Two Distinct Characters [Medium]
+- [-] 340. Longest Substring with At Most K Distinct Characters [Medium]
 - [x] 992. Subarrays with K Different Integers [Hard]
 - [x] 1456. Maximum Number of Vowels in a Substring of Given Length [Medium]
 - [x] 713. Subarray Product Less Than K [Medium]
@@ -230,7 +230,8 @@
 - [x/r] 909. Snakes and Ladders [Medium]
 - [x] 934. Shortest Bridge [Medium]
 - [x] 1293. Shortest Path in a Grid with Obstacles Elimination [Hard]
-- [ ] 286. Walls and Gates [Medium]
+- [-] 286. Walls and Gates [Medium]
+- [x] 1926. Nearest Exit from Entrance in Maze [Medium]
 
 ## Round 14 Topological Sort / Shortest Path / MST
 - [x] 207. Course Schedule [Medium]
@@ -466,7 +467,7 @@
 - Round 24 - Round 27 为复刷 / 高频 / 模拟轮，`[ ]` 表示该轮复刷任务尚未完成，即使题目之前 AC 过，也需要在复刷时单独勾选。
 - 主线唯一题数 358，道复刷任务 48，总任务量 406。
 - 使用方式：平时顺着主线往下刷；每完成 2-3 个专题轮，插入 1 个复刷轮。
-- x表示AC，o表示会员题跳过，r表示值得重做。
+- [x]表示AC，[-]表示会员题跳过，[x/r]表示AC但值得重做，[r]表示耗时太久必须重做。
 
 
 ## Execution Notes
