@@ -50,6 +50,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3919. Minimum Cost to Move Between Indices [Medium]
 - [x] 3854. Minimum Operations to Make Array Parity Alternating [Medium]
 - [x] 3849. maximum-bitwise-xor-after-rearrangement [Medium]
+- [x] 3844. Longest Almost-Palindromic Substring [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
