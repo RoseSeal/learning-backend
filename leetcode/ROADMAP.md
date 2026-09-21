@@ -51,6 +51,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3854. Minimum Operations to Make Array Parity Alternating [Medium]
 - [x] 3849. maximum-bitwise-xor-after-rearrangement [Medium]
 - [x] 3844. Longest Almost-Palindromic Substring [Medium]
+- [x/r] 3835. Count Subarrays With Cost Less Than or Equal to K [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -319,6 +320,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3905. Multi Source Flood Fill [x/r]（陌生题，Medium）
 - [ ] 3858. Minimum Bitwise OR From Grid [x/r]（陌生题，Medium）
 - [ ] 3882. Minimum XOR Path in a Grid [x/r]（陌生题，Medium）
+- [ ] 3835. Count Subarrays With Cost Less Than or Equal to K [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
