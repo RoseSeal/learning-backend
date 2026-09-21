@@ -1,30 +1,64 @@
 # EXECUTION.md
 
-# Execution Rules
+算法训练的执行规则。依据、目标与验收见 `~/Documents/面试/算法模块执行规划.md`；题目清单与状态见 `ROADMAP.md`。工具为 Console Coding 模块，规则与其实际行为一一对应。
 
-## Purpose
-Keep roadmap progression clear, minimal, and sustainable.
+## 1. 目标
 
-## Rules
-1. `ROADMAP.md` is the single source of truth for problem progression.
-2. Solved problems are marked as `[x]`; unsolved problems are marked as `[ ]`.
-3. New problems move forward through `ROADMAP.md`.
-4. Review is required in parallel with new problem solving.
-5. High-frequency, error-prone, and design-heavy problems have higher review priority.
-6. Problem count is not the goal; interview-ready recall and implementation are.
+- 底线（H+）：陌生 Medium 独立解出，实现基本无 bug，不要求最优。
+- 目标（MH，按较强解释准备）：陌生 Hard 独立形成思路，并写出基本无 bug 的实现。
 
-## Priority
-high-frequency coverage > stable recall > clean implementation > raw volume
+## 2. 每周结构（默认 8 小时，下限 6 小时）
 
-## NEW / MOCK 起手 Checklist（2026-07-18 中期复盘固化，来源 round-04 / round-05）
+| 单元 | 次数 | 来源 | 检验什么 |
+|---|---|---|---|
+| 陌生题 | 3 | 周赛 / 双周赛 Q3、Q4，或字节 / 腾讯题库中未做过的题；其中至少 1 道 Hard | 从零解题：约束 → 方案 → 实现 |
+| 主线新题 | 1–2 | ROADMAP Round 13 起按文档顺序（Console Daily） | 新知识面，Hard 的主要来源 |
+| 重做 | 1–2 | Console Review 队首 | 当初那个具体失败是否已修复 |
+| 模拟 | 1 | 一道陌生 Medium，标“模拟” | 限时 + 出声讲 + 提交前自测 |
 
-1. 读题：圈出选择约束（连续 / 任意子集）与数据范围，再动手。
-2. 方案成立后、动手前：哪些状态可降级（历史值 / 上界够不够）？个人变体的证明成本是否高于主流写法？
-3. 写单调结构前：相等元素归谁？一边严格、一边非严格，先论证再写符号。
-4. 卡边界时：画结构、写等式，不信任脑内模拟。
+- 哪天做什么不固定，每类只取 Console 给出的下一题。
+- 时间不足时先减主线新题，其次减重做；陌生题与模拟不减。
+- R19 中未冷却的 `[r]` 多于 10 条时，重做取 2 次。
 
-## 支线制度（与主线同等刚性）
+## 3. 单次流程
 
-- UNSEEN：每 1-2 周一场，结果记入 ROADMAP 的 UNSEEN 执行日志；无日志视同未执行。
-- Java API / 实现层默写：每周日第一题前 5 分钟，结果记入 `insight/java-api-fluency.md` 尾部日志；分区含 API、位运算积木、数值表达式（MOD / long）、三向切分模板。
-- MOCK 轮（R9-R11）启动前：建最小测试脚手架（main 模板，服务 MOCK 自造反例与 ACM 笔试 IO）。`[r]` 清零的前置要求已于 2026-08-21 取消，见 ROADMAP "Review 调度建议"。
+1. 读题后、动手前：在笔记里用一行写下“数据范围 → 允许的复杂度 / 状态规模”。
+2. 方案成立后：先问是否有更简单的做法。贪心须先给出论证或尝试构造反例；约 15 分钟仍无法说明其正确性，就改用枚举 / DP 类的可证方案。
+3. 提交前：自己构造 1–2 个边界用例检查（空、单元素、全相等、极值、题目给出的最小约束）。
+4. 卡住时按现有习惯逐级请求提示；关键一步来自提示记 H1，非关键提示记 H2。
+5. 计时只看 LeetCode。
+
+模拟额外要求：45 分钟内完成；先口述题意复述、朴素解、优化方向、不变量和复杂度，再写代码；自测用例通过前不提交。
+
+## 4. 记录（每题约 1 分钟）
+
+- Console 记录栏：提示 `独立 / H2 / H1`、`首交通过 / 首交未过`（必选），`超时`、`模拟`（开关）。提交时自动写入笔记的 `记录：` 行。
+- 笔记：题意与约束（可口述整理）、思考过程、卡点。只写实际发生的卡点。
+- 不记录来源、场次、日期、耗时、“最终 AC”。
+
+## 5. 标记规则（Console 按记录自动建议，可手动改）
+
+| 记录 | 标记 | 含义 |
+|---|---|---|
+| H1 | `[r]` | 关键一步没想到，需要隔期独立重做 |
+| H2 / 超时 / 首交未过 | `[x/r]` | 能做出但不稳，值得重做 |
+| 独立 + 未超时 + 首交通过 | `[x]` | 通过 |
+
+`[r]` / `[x/r]` 在提交时自动登记到 R19。重做结论：通过 → `[x]`；未过 → 7 天冷却后回原优先位置；基本掌握 → 沉到队尾。重做同样填写记录栏。
+
+## 6. 双周检查（在总规划对话中进行，约 15 分钟）
+
+AI 读取两周内提交的 `记录：` 行与笔记卡点，输出：
+
+1. 陌生 Medium 的“独立 + 未超时 + 首交通过”比例，以及首交通过率。
+2. 陌生 Hard 的无 H1 比例。
+3. 卡点按类别计数（约束映射、方案锁死、实现状态、边界 / 自测、API）。
+4. 实际投入小时数（本人估计，不另计时）。
+
+据此调整下一个周期，规则见算法模块执行规划第 5 节。
+
+## 7. 不做的事
+
+- 不按“高频”重做没有失败记录的熟题（原 R9–R11 已移入存档）。
+- 不以题量或清空旧题为目标。
+- 不另设 API 默写、UNSEEN 场次等独立支线；API 卡顿写进笔记卡点，由双周检查计数。

@@ -1,52 +1,54 @@
 # LeetCode Roadmap
 
-## 执行计划（2026-05-18 → 2027-04，投递期 2027-02 ~ 04）
+本文件只承担两件事：题目清单与状态（Console Coding 模块的唯一事实源），以及 R19 重做队列。执行规则见 `EXECUTION.md`；算法模块的现状判断、训练结构与验收见 `~/Documents/面试/算法模块执行规划.md`。
 
-节奏：**每天至少 1 题不断手感**，编码任务轻时加 1-2 道小菜。
-推进顺序：从上往下扫第一个 `[ ]`。Round 越靠前越重要。
-**时间锚点**：主线（R1-17）在 2027-02 投递前收完；R18 终局 mock + wrong-list 维护贴着投递面试期（2027-02 ~ 04）推进。
-
-### 四个 Phase
-- **NEW** — 新题。完整流程（计时 → 思考 → 编码 → AC → GPT 整理笔记（含主流解对照）→ git）。1 道为主菜。
-- **AUDIT** — 反虚假进步审计。题目已在旧 Round AC，本轮独立白板限时复盘（简单 25min / 中等 35min），出声讲，不查 API，跑反例。失败率 > 30% 时该组扩大审计。
-- **MOCK** — 面试模拟。45min 硬截止 + 自造反例（不依赖 LC 测试用例 debug）+ 出声讲（题意复述 / 朴素解 / 优化方向 / 不变量 / 复杂度 / 反例）。
-- **UNSEEN** — 陌生题迁移训练（不计入题量，按节奏穿插）。从 Round 5 起**每 1-2 周一场**：LC 周赛，或从字节/腾讯公司 tag 随机抽 1 道**从未做过**的题，按 MOCK 标准执行。MOCK 测记忆稳定性，UNSEEN 测迁移能力，二者不可互替。
-
-### Phase 推进总览
-
-| Round | 主题 | Phase | 题量 |
-|---|---|---|---|
-| 1 | Union-Find | NEW | 13 |
-| 2 | Design 核心 | NEW | 7 |
-| 3 | Advanced Array / Matrix | NEW | 13 |
-| 4 | 旧轮反虚假进步审计（R1-R12）| AUDIT | 24 |
-| 5 | Monotonic Stack 变体 | NEW | 10 |
-| 6 | Math / Bit / Trick 补盲 | NEW | 9 |
-| 7 | Design 第二批 | NEW | 8 |
-| 8 | DP cherry-pick | NEW | 7 |
-| 9 | ByteDance 高频 I | MOCK | 12 |
-| 10 | ByteDance 高频 II 剩余 | MOCK | 5 |
-| 11 | Tencent 高频 | MOCK | 8 |
-| 12 | 多线程 / 并发同步 | NEW | 4 |
-| 13 | Segment Tree / BIT | NEW | 6 |
-| 14 | String 算法（KMP / Manacher / Rolling Hash）| NEW | 5 |
-| 15 | Sweep Line | NEW | 4 |
-| 16 | 博弈 DP | NEW | 4 |
-| 17 | Reservoir Sampling + 概率 + Trie 深度变体 | NEW | 6 |
-| 18 | Hard 终局 mock（贴投递面试期）| MOCK | 12 |
-
-**推进顺序调整（2026-08-21）**：Round 12 已前置到 Round 9 之前，其余顺序不变；扫描规则仍为"从上往下扫第一个 `[ ]`"，故文档中的区块顺序即推进顺序。原因见该轮区块说明。
-
-合计 **157 题**（UNSEEN 场次另计），预算充裕；投递期 2027-02 ~ 04 之前收完主线，剩余时间用于项目准备 + 终局 mock + wrong-list 反复刷。
+- 陌生题：在 Console Daily 顶部当天添加，落入 Round 0，之后与主线题流程完全一致。
+- 主线新题：Round 13 起按文档顺序推进（文档顺序即推进顺序）。
+- 重做：从 Console Review tab 取队首；`[r]` / `[x/r]` 在提交时自动登记到 R19。
 
 ### 标记说明
-- `[x]` AC
-- `[ ]` 未完成
+- `[x]` 通过：独立、未超时、首交通过
+- `[x/r]` 值得重做：H2、超时或首交未过
+- `[r]` 需要重做：H1（关键一步没想到）
 - `[-]` 会员题跳过
-- `[x/r]` AC 但值得重做（软件自动 review 模式拉取）
-- `[r]` 耗时太久必须重做（软件自动 review 模式拉取）
+- `[ ]` 未做
+
+Console 按记录栏给出建议标记，提交前可改。
+（2026-09-20 重排：旧“执行计划 / 四 Phase / Execution Notes / UNSEEN 执行日志”已由 EXECUTION.md 与算法模块执行规划取代，原文见 git 历史。）
 
 ---
+
+# ============== Round 0 · 陌生题 [Phase: UNSEEN] ==============
+
+当天在 Console 添加（题号 + 名称 + 难度），题面与约束写进题目笔记。目录 `00-unseen/`。
+以下 26 道为 2026-09-20 从旧 `unseen/` 场次迁移，标记按记录初标、待本人确认（见算法模块执行规划“未决问题”）。
+
+- [x] 4025. Minimum Penalty [Easy]
+- [x] 4026. Maximum Gap Between Stations [Medium]
+- [x] 4022. K-th Digit in Infinite String [Medium]
+- [x] 3994. Minimum Adjacent Swaps [Medium]
+- [x/r] 3998. Transform Binary String Using Subsequence Sort [Medium]
+- [x/r] 3923. Minimum Generations to Target Point [Medium]
+- [x] 3965. Finish Time of Tasks I [Medium]
+- [r] 3933. Largest Local Values in a Matrix II [Medium]
+- [x] 4012. Count of Unfinished Tasks After Each Shift [Medium]
+- [x/r] 4008. Minimum Initial Strength to Defeat All Monsters [Medium]
+- [x] 3970. Shortest Path With At Most K Consecutive Identical Characters [Medium]
+- [x] 3980. Minimum Operations to Transform Binary String [Medium]
+- [x/r] 3976. Maximum Subarray Sum After Multiplier [Medium]
+- [r] 3910. Count Connected Subgraphs with Even Node Sum [Hard]
+- [x/r] 3905. Multi Source Flood Fill [Medium]
+- [x/r] 3858. Minimum Bitwise OR From Grid [Medium]
+- [x] 3868. Minimum Cost to Equalize Arrays Using Swaps [Medium]
+- [x] 3863. Minimum Operations to Sort a String [Medium]
+- [r] 3872. Longest Arithmetic Sequence After Changing At Most One Element [Medium]
+- [x/r] 3882. Minimum XOR Path in a Grid [Medium]
+- [r] 3877. Minimum Removals to Achieve Target XOR [Medium]
+- [x] 3886. Sum of Sortable Integers [Hard]
+- [x] 3891. Minimum Increase to Maximize Special Indices [Medium]
+- [x] 3900. Longest Balanced Substring After One Swap [Medium]
+- [x] 3919. Minimum Cost to Move Between Indices [Medium]
+- [x] 3854. Minimum Operations to Make Array Parity Alternating [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -188,57 +190,6 @@ DP 是强项（三轮沉淀），仅 cherry-pick 高级变体作为知识扩展�
 - [x] 329. Longest Increasing Path in a Matrix [Hard]
 - [x] 403. Frog Jump [Hard]
 
-# ============== Round 12 · 多线程 / 并发同步 [Phase: NEW] ==============
-
-Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
-
-> **推进顺序调整（2026-08-21）**：本轮已前置到 Round 9 之前，轮次编号不变。
-> 原因：R9-R11 均为 MOCK 轮、全轮 45min 硬截止；2026-08 期间外部事务占用精力，限时任务出现回避（`[r]` 消化为 0，2104 重做于 08-01 开头未完成，主线 07-31 至 08-16 中断 16 天）。本轮题量小（4 题）、属新知识而非限时复盘，且与 Java 后端八股直接对口，适合作为恢复期主线。
-> 恢复条件：本轮完成后重新评估精力状态；恢复则回到 Round 9 按编号继续推进，不再连续插队。
-
-- [ ] 1114. Print in Order [Easy]
-- [ ] 1115. Print FooBar Alternately [Medium]
-- [ ] 1116. Print Zero Even Odd [Medium]
-- [ ] 1117. Building H2O [Medium]
-
-# ============== Round 9 · ByteDance 高频 I [Phase: MOCK] ==============
-
-题目大多在主线已 `[x]`，本轮 mock 模式独立重做（白板限时 45min）。
-
-- [ ] 15. 3Sum [Medium]
-- [ ] 31. Next Permutation [Medium]
-- [ ] 56. Merge Intervals [Medium]
-- [ ] 75. Sort Colors [Medium]
-- [ ] 76. Minimum Window Substring [Hard]
-- [ ] 146. LRU Cache [Medium]
-- [ ] 215. Kth Largest Element in an Array [Medium]
-- [ ] 236. Lowest Common Ancestor of a Binary Tree [Medium]
-- [ ] 239. Sliding Window Maximum [Hard]
-- [ ] 297. Serialize and Deserialize Binary Tree [Hard]
-- [ ] 300. Longest Increasing Subsequence [Medium]
-- [ ] 322. Coin Change [Medium]
-
-# ============== Round 10 · ByteDance 高频 II 剩余 [Phase: MOCK] ==============
-
-- [ ] 208. Implement Trie (Prefix Tree) [Medium]
-- [ ] 253. Meeting Rooms II [Medium]
-- [ ] 295. Find Median from Data Stream [Hard]
-- [ ] 329. Longest Increasing Path in a Matrix [Hard]
-- [ ] 410. Split Array Largest Sum [Hard]
-
-# ============== Round 11 · Tencent 高频 [Phase: MOCK] ==============
-
-已压缩：删去 1/20/70/121 四道边际价值过低的 Easy（多轮覆盖 + 不可能挂），省出时间给 UNSEEN 场次。
-
-- [ ] 3. Longest Substring Without Repeating Characters [Medium]
-- [ ] 11. Container With Most Water [Medium]
-- [ ] 53. Maximum Subarray [Medium]
-- [ ] 55. Jump Game [Medium]
-- [ ] 128. Longest Consecutive Sequence [Medium]
-- [ ] 206. Reverse Linked List [Easy]（5min 极限标准）
-- [ ] 215. Kth Largest Element in an Array [Medium]
-- [ ] 300. Longest Increasing Subsequence [Medium]
-
 # ============== Round 13 · Segment Tree / BIT [Phase: NEW] ==============
 
 中后期面试分水岭题，公理推导型有优势。
@@ -250,6 +201,15 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 493. Reverse Pairs [Hard]
 - [ ] 218. The Skyline Problem [Hard]
 
+# ============== Round 15 · Sweep Line [Phase: NEW] ==============
+
+区间问题进阶，中后台 / 排程类系统设计的算法底座。
+
+- [ ] 1235. Maximum Profit in Job Scheduling [Hard]
+- [ ] 729. My Calendar I [Medium]
+- [ ] 731. My Calendar II [Medium]
+- [ ] 732. My Calendar III [Hard]
+
 # ============== Round 14 · String 算法 [Phase: NEW] ==============
 
 KMP / Manacher / Rolling Hash，顺带训 Java String API 肌肉记忆。
@@ -259,15 +219,6 @@ KMP / Manacher / Rolling Hash，顺带训 Java String API 肌肉记忆。
 - [ ] 459. Repeated Substring Pattern [Easy]
 - [ ] 686. Repeated String Match [Medium]
 - [ ] 1392. Longest Happy Prefix [Hard]
-
-# ============== Round 15 · Sweep Line [Phase: NEW] ==============
-
-区间问题进阶，中后台 / 排程类系统设计的算法底座。
-
-- [ ] 1235. Maximum Profit in Job Scheduling [Hard]
-- [ ] 729. My Calendar I [Medium]
-- [ ] 731. My Calendar II [Medium]
-- [ ] 732. My Calendar III [Hard]
 
 # ============== Round 16 · 博弈 DP [Phase: NEW] ==============
 
@@ -306,12 +257,23 @@ AI 应用 / 推荐系统 / 搜索建议的算法基础。
 - [ ] 239. Sliding Window Maximum [Hard]
 - [ ] 410. Split Array Largest Sum [Hard]
 
+# ============== Round 12 · 多线程 / 并发同步 [Phase: NEW] ==============
+
+Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
+
+> 2026-09-20：排到主线最后。Java 并发写法对以 Go 为主的后端技术面价值有限，但题量小，保留按需做。
+
+- [ ] 1114. Print in Order [Easy]
+- [ ] 1115. Print FooBar Alternately [Medium]
+- [ ] 1116. Print Zero Even Odd [Medium]
+- [ ] 1117. Building H2O [Medium]
+
 # ============== Round 19 · Review & Re-attempt [Phase: AUDIT/REVIEW] ==============
 
-所有标记为 [r]（耗时崩盘）与 [x/r]（值得重做）的题目集合，穿插于前面各轮中间完成。
+所有 [r] / [x/r] 题目的重做队列（Console Review tab 的数据源）。Daily 提交为 [r] / [x/r] 时自动登记到下方“新轮”分组；节奏见文末“Review 调度建议”。
 （2026-07-18 中期复盘补录新 R1-R6 标记题，见 `insight/midterm-review-2026-07.md` 第六节；2026-08-21 补录新 R7-R8 标记题 381 / 10，见 `insight/round-07-design.md`、`insight/round-08-dp-cherry-pick.md` 执行层。）
 
-## 新轮 [r]（优先消化；启动前置要求已于 2026-08-21 取消，见下方"Review 调度建议"）
+## 新轮 [r]
 
 - [ ] 460. LFU Cache [r]（新 R2，Hard，R7 Design 第二批的直接前置） ｜重做未过：2026-07-19
 - [ ] 321. Create Maximum Number [r]（新 R5，Hard，重做标准见 round-05）
@@ -324,8 +286,12 @@ AI 应用 / 推荐系统 / 搜索建议的算法基础。
 - [ ] 324. Wiggle Sort II [r]（新 R3，重点：三向 partition + quickselect 下标版）
 - [ ] 721. Accounts Merge [r]（新 R1）
 - [ ] 1489. Find Critical and Pseudo-Critical Edges in MST [r]（新 R1，Hard，重做标准：先写主流"禁用/强制 Kruskal"版）
+- [ ] 3933. Largest Local Values in a Matrix II [r]（陌生题，Medium）
+- [ ] 3910. Count Connected Subgraphs with Even Node Sum [r]（陌生题，Hard）
+- [ ] 3872. Longest Arithmetic Sequence After Changing At Most One Element [r]（陌生题，Medium）
+- [ ] 3877. Minimum Removals to Achieve Target XOR [r]（陌生题，Medium）
 
-## 新轮 [x/r]（分散到 R9-R11 期间作小菜）
+## 新轮 [x/r]
 
 > 注意：380（新 R2）与 381（新 R7）是不同题目，勿混。
 
@@ -343,7 +309,14 @@ AI 应用 / 推荐系统 / 搜索建议的算法基础。
 - [ ] 166. Fraction to Recurring Decimal [x/r]（新 R6，重做标准：直接用 `/` 与 `%` 只模拟小数部分，讲清"余数重复即循环"）
 - [ ] 381. Insert Delete GetRandom O(1) - Duplicates allowed [x/r]（新 R7，Hard，2026-08-21 补录，重做标准：直接写"末尾即待删值则免交换"的最终版，出声讲清概率不变量与 Set 别名成立条件）
 - [ ] 10. Regular Expression Matching [x/r]（新 R8，Hard，2026-08-21 补录，重做标准：先写主流二维 DP，再讲清一维压缩中 `up` / `pre` / `dp[j-1]` 的语义与 `*` 不更新 `pre` 的理由）
-- 146. LRU Cache [x/r]（新 R2）→ 不单列，由 R9 / R18 MOCK 自然重考
+- 146. LRU Cache [x/r]（新 R2）→ 不单列，由 R18 自然重考
+- [ ] 3998. Transform Binary String Using Subsequence Sort [x/r]（陌生题，Medium）
+- [ ] 3923. Minimum Generations to Target Point [x/r]（陌生题，Medium）
+- [ ] 4008. Minimum Initial Strength to Defeat All Monsters [x/r]（陌生题，Medium）
+- [ ] 3976. Maximum Subarray Sum After Multiplier [x/r]（陌生题，Medium）
+- [ ] 3905. Multi Source Flood Fill [x/r]（陌生题，Medium）
+- [ ] 3858. Minimum Bitwise OR From Grid [x/r]（陌生题，Medium）
+- [ ] 3882. Minimum XOR Path in a Grid [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
@@ -661,65 +634,55 @@ AI 应用 / 推荐系统 / 搜索建议的算法基础。
 
 ---
 
-## Execution Notes
-- 每天至少 1 题不断手感；编码任务轻时加 1-2 道小菜。
-- 主菜（NEW / MOCK）走完整流程：计时 → 看题 → 写代码 → 提交 → debug → AC 停时 → GPT 整理笔记（必含"主流解对照"一节）→ git。
-- 小菜（AUDIT）限时 25-35min，仅勾 `[x]` + 一行卡点，不写长笔记。
-- Hard 题主菜允许拆成两天：第一天独立思考 + 编码，第二天重写 + 笔记。
-- MOCK 题强制：限时 45min + 自造反例（不依赖 LC 测试用例 debug）+ 出声讲述。
-- **UNSEEN 场次（从 Round 5 起）：每 1-2 周 1 场，LC 周赛或公司 tag 随机抽未做过的题，45min 硬截止，按 MOCK 标准执行。失败不补做整轮，但记录暴露的专题盲区，反馈给对应 Round。**
-- **ACM 笔试模式：2027-01 起加 2-3 次牛客 ACM 模式套卷（自行处理输入输出、4 题限时），消除字节笔试 IO 形态的陌生感。**
-- 若某轮出现连续 3 题无独立思路，暂停推进，先回头补该专题模板。
-- 若 AUDIT 某专题失败率 > 30%，该组整组补审计，不要推进新专题。
-- 笔记优先级：设计题 > 图论 > 单调栈/队列 > 滑动窗口变种 > 经典 Hard。
-- buffer 充裕（投递期 2027-02 ~ 04 才开始）：1-2 个月留给项目准备，其余用于 R18 终局 mock + UNSEEN + wrong-list 反复刷 + 弹性。
-- 春节窗口 1/28 – 2/10 默认零产出，不要骗自己。
-- **笔记目录约定：所有横向总结集中在 `insight/` 目录（轮次复盘 `round-*.md`、专题总结 `topic-*.md`、专项 `deep-dive-*` / `java-api-fluency.md`），体例见 `insight/README.md`。单题笔记仍在各题目录的 README.md。**
-
 ## Review 调度建议（[r] / [x/r] 题）
 
-（2026-07-18 中期复盘修订。原"3 道旧 [r] 在新 R1-5 期间消化"未执行，积压已达 37 题，节奏加严。）
+（2026-09-20 修订。旧版“按新题数比例穿插”“R9 前 [r] 清零”均已取消，原文见 git 历史。）
 
-- **节奏（原定）**：R7-R8 还债期每 2-3 道新题穿插 1 道 `[r]`，预期消化 5-7 道。**实际执行 0 道**——R7+R8 共完成 13 道新题，期间 460 于 2026-07-19 重做一次未过（40min 超时），2104 于 08-01 开头未完成，无一道升级为 `[x]`。
-- **门槛改期（2026-08-21）**：原规则"R9 MOCK 启动前 `[r]` 必须清零"**取消**，`[r]` 不再作为任何轮次的启动前置。
-  - 理由一：门槛的目的是让 MOCK 建立在干净基础上，但 MOCK 本身就是检验器——未修复的 `[r]` 会在 45min 硬截止下直接暴露，不需要一个前置阶段来提前保证。
-  - 理由二：把清零设为前置，等于在精力低谷期先安排一段纯还债的串行阶段（按 460 实测 40min/题计，24 道约需 3-4 周），而还债任务无新增覆盖、无即时反馈，正是 2026-08 中断的高发形态。
-  - 理由三：挂着不做的门槛本身构成负担并助长回避，显式改期优于保留。
-  - 新安排：恢复期结束后重启 `[r]` 消化，届时再定节奏；优先序不变。
-- **`[r]` 优先序**：460 → 321 / 2104 / 862 → 424 → 54 / 73 / 220 / 324 → 316 / 752 / 1203（旧账）→ 721 / 1489。
-- **`[x/r]`**：分散到 R9-R11 期间作小菜；146 由 R9/R18 MOCK 自然重考，不单独安排。
-- review 题不挤压每日主菜：review 题作为当日**小菜**（限时 30min 重写，对比旧版找改进点）。
-- 重做后通过则把标记升级为 `[x]`；仍有问题保留 `[x/r]`。
-- 重做题一律执行"出声讲不变量"标准（含 AUDIT，见 round-04 复盘）。
+- 节奏：每周固定重做位置（见 EXECUTION.md），从 Console Review tab 取队首；不按新题数量触发。
+- 每条都有失败记录作证据：重做检验的是“当初那个具体失败是否已修复”，括注中的重做标准即检验点。
+- **`[r]` 优先序**：460 → 3910 → 2104 → 3933 → 862 → 3877 → 424 → 3872 → 321 → 54 / 73 / 220 / 324 → 316 / 752 / 1203 → 721 / 1489
+- `[x/r]` 按文档序排在全部 `[r]` 之后。
+- 结论：通过 → `[x]`；重做（7 天冷却后回原位）；可重做（沉到队尾直到通过）。
+- 重做一律执行“出声讲不变量”标准。
 
-## UNSEEN 执行日志
+# ============== 存档区（2026-09-20 停止推送，不参与解析） ==============
 
-（无日志视同未执行。每 1-2 周一场；R9-R11 MOCK 期间可降频至每 2 周一场，不可中断。格式：日期 | 来源（周赛/公司 tag）| 题号 | 结果 | 暴露盲区 → 反馈 Round。）
+R9–R11 是按“高频”重做已掌握的熟题，没有失败记录作依据，停止推送。需要时可按原清单手动做。
 
-| 日期 | 来源 | 题号 | 结果 | 暴露盲区 → 反馈 |
-|---|---|---|---|---|
-| 2026-07-31 | 周赛 | 3998 | 35min | 刻画独立完成;1/? 格判断错误,靠 LC 测试暴露(违反 MOCK 自证标准);贪心超支的守恒关系未显式陈述。 |
-| 2026-08-21 | 周赛 | 4025, 4026 | 2/2 | 无 <!-- unseen-session:unseen/2026-08-21-周赛515 --> |
-| 2026-08-24 | 周赛 | 4022 | 1/1 | 数学性质推理+边界case <!-- unseen-session:unseen/2026-08-24-189 --> |
-| 2026-08-24 | 周赛 | 3994 | 1/1 | 无 <!-- unseen-session:unseen/2026-08-24-187 --> |
-| 2026-09-18 | 补录 | 3923 | 超时 | 停机判据取"是否有新点产生"；低估了状态空间（7^3 很小） <!-- unseen-session:unseen/2026-09-18-补录01-3923 --> |
-| 2026-09-18 | 周赛185 | 3965 |  | <!-- unseen-session:unseen/2026-09-18-补录02-3965 --> |
-| 2026-09-18 | 周赛502 | 3933 | H1 · 超时 | 没有先看数据范围：n、m、x ≤ 200，可以直接暴力 <!-- unseen-session:unseen/2026-09-18-补录03-3933 --> |
-| 2026-09-18 | 周赛513 | 4012 |  | TreeMap 不熟练；二分查找即可替代 <!-- unseen-session:unseen/2026-09-18-补录04-4012 --> |
-| 2026-09-18 | 周赛 | 4008 |  | 初版漏写第一个 buff 不足怪物的补差 <!-- unseen-session:unseen/2026-09-18-补录05-4008 --> |
-| 2026-09-18 | 周赛507 | 3970 |  | <!-- unseen-session:unseen/2026-09-18-补录06-3970 --> |
-| 2026-09-18 | 周赛186 | 3980 |  | <!-- unseen-session:unseen/2026-09-18-补录07-3980 --> |
-| 2026-09-18 | 周赛508 | 3976 | H2 · 超时 | 执着于贪心 80min 未果；改为三状态 DP 后 13min AC <!-- unseen-session:unseen/2026-09-18-补录08-3976 --> |
-| 2026-09-18 | 周赛181 | 3910 | H1 · 超时 | 缺少"n 小 → bitmask 枚举子集 O(2^n)"的先验映射，一度误判为 13! <!-- unseen-session:unseen/2026-09-18-补录09-3910 --> |
-| 2026-09-18 | 周赛498 | 3905 |  | 同层"取 max 更新颜色"和"首次染色入队"两个动作混进了同一个分支 <!-- unseen-session:unseen/2026-09-18-补录10-3905 --> |
-| 2026-09-18 | 补录 | 3858 | 超时 | 按位贪心模板召回慢，靠直接建模推导出来 <!-- unseen-session:unseen/2026-09-18-补录11-3858 --> |
-| 2026-09-18 | 补录 | 3868 |  | <!-- unseen-session:unseen/2026-09-18-补录12-3868 --> |
-| 2026-09-18 | 补录 | 3863 |  | <!-- unseen-session:unseen/2026-09-18-补录13-3863 --> |
-| 2026-09-18 | 补录 | 3872 | H1 · 超时 | 思路直接，但实现繁琐、维护的状态太多 <!-- unseen-session:unseen/2026-09-18-补录14-3872 --> |
-| 2026-09-18 | 补录 | 3882 | H2 | 值域小（≤ 1023）可以作为 DP 状态，没反应过来 <!-- unseen-session:unseen/2026-09-18-补录15-3882 --> |
-| 2026-09-18 | 补录 | 3887 | H1 | 混淆了 01 背包与 bitmask；按遍历顺序即可决定是否选取 <!-- unseen-session:unseen/2026-09-18-补录16-3887 --> |
-| 2026-09-18 | 补录 | 3886 |  | <!-- unseen-session:unseen/2026-09-18-补录17-3886 --> |
-| 2026-09-18 | 周赛 | 3891 |  | <!-- unseen-session:unseen/2026-09-18-补录18-3891 --> |
-| 2026-09-18 | 补录 | 3900 |  | 改数组偏移时改了一半（any[n] 没改成 any[n + 2]）；变量过多，难以追踪 <!-- unseen-session:unseen/2026-09-18-补录19-3900 --> |
-| 2026-09-18 | 周赛500 | 3919 |  | <!-- unseen-session:unseen/2026-09-18-补录20-3919 --> |
-| 2026-09-18 | 补录 | 3854 |  | <!-- unseen-session:unseen/2026-09-18-补录21-3854 --> |
+## Round 9 · ByteDance 高频 I [Phase: MOCK]
+
+题目大多在主线已 `[x]`，本轮 mock 模式独立重做（白板限时 45min）。
+
+- [ ] 15. 3Sum [Medium]
+- [ ] 31. Next Permutation [Medium]
+- [ ] 56. Merge Intervals [Medium]
+- [ ] 75. Sort Colors [Medium]
+- [ ] 76. Minimum Window Substring [Hard]
+- [ ] 146. LRU Cache [Medium]
+- [ ] 215. Kth Largest Element in an Array [Medium]
+- [ ] 236. Lowest Common Ancestor of a Binary Tree [Medium]
+- [ ] 239. Sliding Window Maximum [Hard]
+- [ ] 297. Serialize and Deserialize Binary Tree [Hard]
+- [ ] 300. Longest Increasing Subsequence [Medium]
+- [ ] 322. Coin Change [Medium]
+
+## Round 10 · ByteDance 高频 II 剩余 [Phase: MOCK]
+
+- [ ] 208. Implement Trie (Prefix Tree) [Medium]
+- [ ] 253. Meeting Rooms II [Medium]
+- [ ] 295. Find Median from Data Stream [Hard]
+- [ ] 329. Longest Increasing Path in a Matrix [Hard]
+- [ ] 410. Split Array Largest Sum [Hard]
+
+## Round 11 · Tencent 高频 [Phase: MOCK]
+
+已压缩：删去 1/20/70/121 四道边际价值过低的 Easy（多轮覆盖 + 不可能挂），省出时间给 UNSEEN 场次。
+
+- [ ] 3. Longest Substring Without Repeating Characters [Medium]
+- [ ] 11. Container With Most Water [Medium]
+- [ ] 53. Maximum Subarray [Medium]
+- [ ] 55. Jump Game [Medium]
+- [ ] 128. Longest Consecutive Sequence [Medium]
+- [ ] 206. Reverse Linked List [Easy]（5min 极限标准）
+- [ ] 215. Kth Largest Element in an Array [Medium]
+- [ ] 300. Longest Increasing Subsequence [Medium]

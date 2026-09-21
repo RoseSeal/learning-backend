@@ -1,5 +1,7 @@
 # 前端功能新增清单（供 CC 实现）
 
+> 历史文档（2026-07-18）。P0/P1 已在 Console v0.2 交付；其中 UNSEEN 场次、计时器、穿插提醒已于 2026-09-20 的 Console v0.3 移除或合并，现行契约见 Console `modules/coding.md` §12，执行规则见 `EXECUTION.md`。
+
 日期：2026-07-18 ｜ 依据：insight/midterm-review-2026-07.md 第六节、ROADMAP.md（R19 / Review 调度 / UNSEEN 日志）、EXECUTION.md（起手 Checklist / 支线制度）
 
 ## 现状（已有功能，勿动）
