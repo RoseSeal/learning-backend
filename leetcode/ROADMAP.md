@@ -53,6 +53,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3844. Longest Almost-Palindromic Substring [Medium]
 - [x/r] 3835. Count Subarrays With Cost Less Than or Equal to K [Medium]
 - [x] 3840. house-robber-v [Medium]
+- [x] 3829. design-ride-sharing-system [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
