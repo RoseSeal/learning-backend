@@ -54,6 +54,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3835. Count Subarrays With Cost Less Than or Equal to K [Medium]
 - [x] 3840. house-robber-v [Medium]
 - [x] 3829. design-ride-sharing-system [Medium]
+- [r] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -295,6 +296,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3910. Count Connected Subgraphs with Even Node Sum [r]（陌生题，Hard）
 - [ ] 3872. Longest Arithmetic Sequence After Changing At Most One Element [r]（陌生题，Medium）
 - [ ] 3877. Minimum Removals to Achieve Target XOR [r]（陌生题，Medium）
+- [ ] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [r]（陌生题，Medium）
 
 ## 新轮 [x/r]
 
