@@ -55,6 +55,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3840. house-robber-v [Medium]
 - [x] 3829. design-ride-sharing-system [Medium]
 - [r] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [Medium]
+- [x/r] 3821. find-nth-smallest-integer-with-k-one-bits [Hard]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -325,6 +326,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3858. Minimum Bitwise OR From Grid [x/r]（陌生题，Medium）
 - [ ] 3882. Minimum XOR Path in a Grid [x/r]（陌生题，Medium）
 - [ ] 3835. Count Subarrays With Cost Less Than or Equal to K [x/r]（陌生题，Medium）
+- [ ] 3821. find-nth-smallest-integer-with-k-one-bits [x/r]（陌生题，Hard）
 
 ## 旧轮存量
 
