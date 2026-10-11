@@ -57,6 +57,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [r] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [Medium]
 - [x/r] 3821. find-nth-smallest-integer-with-k-one-bits [Hard]
 - [x/r] 3815. design-auction-system [Medium]
+- [x] 3816. lexicographically-smallest-string-after-deleting-duplicate-characters [Hard]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
