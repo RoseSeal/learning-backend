@@ -58,6 +58,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3821. find-nth-smallest-integer-with-k-one-bits [Hard]
 - [x/r] 3815. design-auction-system [Medium]
 - [x] 3816. lexicographically-smallest-string-after-deleting-duplicate-characters [Hard]
+- [x/r] 3781. maximum-score-after-binary-swaps [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -330,6 +331,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3835. Count Subarrays With Cost Less Than or Equal to K [x/r]（陌生题，Medium）
 - [ ] 3821. find-nth-smallest-integer-with-k-one-bits [x/r]（陌生题，Hard）
 - [ ] 3815. design-auction-system [x/r]（陌生题，Medium）
+- [ ] 3781. maximum-score-after-binary-swaps [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
