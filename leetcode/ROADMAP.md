@@ -59,6 +59,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3815. design-auction-system [Medium]
 - [x] 3816. lexicographically-smallest-string-after-deleting-duplicate-characters [Hard]
 - [x/r] 3781. maximum-score-after-binary-swaps [Medium]
+- [r] 3756. concatenate-non-zero-digits-and-multiply-by-sum-ii [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -301,6 +302,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3872. Longest Arithmetic Sequence After Changing At Most One Element [r]（陌生题，Medium）
 - [ ] 3877. Minimum Removals to Achieve Target XOR [r]（陌生题，Medium）
 - [ ] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [r]（陌生题，Medium）
+- [ ] 3756. concatenate-non-zero-digits-and-multiply-by-sum-ii [r]（陌生题，Medium）
 
 ## 新轮 [x/r]
 
