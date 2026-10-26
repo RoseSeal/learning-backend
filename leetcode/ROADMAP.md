@@ -61,6 +61,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3781. maximum-score-after-binary-swaps [Medium]
 - [r] 3756. concatenate-non-zero-digits-and-multiply-by-sum-ii [Medium]
 - [x/r] 3752. lexicographically-smallest-negated-permutation-that-sums-to-target [Medium]
+- [x/r] 3738. longest-non-decreasing-subarray-after-replacing-at-most-one-element [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -336,6 +337,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3815. design-auction-system [x/r]（陌生题，Medium）
 - [ ] 3781. maximum-score-after-binary-swaps [x/r]（陌生题，Medium）
 - [ ] 3752. lexicographically-smallest-negated-permutation-that-sums-to-target [x/r]（陌生题，Medium）
+- [ ] 3738. longest-non-decreasing-subarray-after-replacing-at-most-one-element [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
