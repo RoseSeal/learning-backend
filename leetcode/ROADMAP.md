@@ -64,6 +64,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3738. longest-non-decreasing-subarray-after-replacing-at-most-one-element [Medium]
 - [x/r] 3733. 完成所有送货任务的最少时间 [Medium]
 - [x] 3728. Stable Subarrays With Equal Boundary and Interior Sum [Medium]
+- [x] 3724. 转换数组的最少操作次数 [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
