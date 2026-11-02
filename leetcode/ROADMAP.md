@@ -66,6 +66,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3728. Stable Subarrays With Equal Boundary and Interior Sum [Medium]
 - [x] 3724. 转换数组的最少操作次数 [Medium]
 - [x/r] 3720. 大于目标字符串的lexicographically-smallest-permutation-greater-than-target小字典序排列 [Medium]
+- [x/r] 3714. Longest Balanced Substring II [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -344,6 +345,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3738. longest-non-decreasing-subarray-after-replacing-at-most-one-element [x/r]（陌生题，Medium）
 - [ ] 3733. 完成所有送货任务的最少时间 [x/r]（陌生题，Medium）
 - [ ] 3720. 大于目标字符串的lexicographically-smallest-permutation-greater-than-target小字典序排列 [x/r]（陌生题，Medium）
+- [ ] 3714. Longest Balanced Substring II [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
