@@ -1,9 +1,9 @@
 # LeetCode Roadmap
 
-本文件只承担两件事：题目清单与状态（Console Coding 模块的唯一事实源），以及 R19 重做队列。执行规则见 `EXECUTION.md`；算法模块的现状判断、训练结构与验收见 `~/Documents/面试/算法模块执行规划.md`。
+本文件只承担两件事：题目清单与状态（Console Coding 模块的唯一事实源），以及 R19 重做队列。执行规则见 `EXECUTION.md`；算法模块的现状判断、训练结构与验收见 `~/workspace/learning/interview-prep/plan/算法模块执行规划.md`。
 
 - 陌生题：在 Console Daily 顶部当天添加，落入 Round 0，之后与主线题流程完全一致。
-- 主线新题：Round 13 起按文档顺序推进（文档顺序即推进顺序）。
+- 主线新题：Round 13 起按文档顺序推进（文档顺序即推进顺序）。2026-11-02 起暂停至 2027-01，1 月起以 R18 为主。
 - 重做：从 Console Review tab 取队首；`[r]` / `[x/r]` 在提交时自动登记到 R19。
 
 ### 标记说明
@@ -67,6 +67,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3724. 转换数组的最少操作次数 [Medium]
 - [x/r] 3720. 大于目标字符串的lexicographically-smallest-permutation-greater-than-target小字典序排列 [Medium]
 - [x/r] 3714. Longest Balanced Substring II [Medium]
+- [x] 3709. Design Exam Scores Tracker [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -227,36 +228,6 @@ DP 是强项（三轮沉淀），仅 cherry-pick 高级变体作为知识扩展�
 - [ ] 729. My Calendar I [Medium]
 - [ ] 731. My Calendar II [Medium]
 - [ ] 732. My Calendar III [Hard]
-
-# ============== Round 14 · String 算法 [Phase: NEW] ==============
-
-KMP / Manacher / Rolling Hash，顺带训 Java String API 肌肉记忆。
-
-- [ ] 28. Find the Index of the First Occurrence in a String [Easy]
-- [ ] 214. Shortest Palindrome [Hard]
-- [ ] 459. Repeated Substring Pattern [Easy]
-- [ ] 686. Repeated String Match [Medium]
-- [ ] 1392. Longest Happy Prefix [Hard]
-
-# ============== Round 16 · 博弈 DP [Phase: NEW] ==============
-
-DP 的反向思考分支，Meta / 字节有时出。
-
-- [ ] 877. Stone Game [Medium]
-- [ ] 486. Predict the Winner [Medium]
-- [ ] 464. Can I Win [Medium]
-- [ ] 1140. Stone Game II [Medium]
-
-# ============== Round 17 · Reservoir Sampling + 概率 + Trie 深度变体 [Phase: NEW] ==============
-
-AI 应用 / 推荐系统 / 搜索建议的算法基础。
-
-- [ ] 382. Linked List Random Node [Medium]
-- [ ] 398. Random Pick Index [Medium]
-- [ ] 470. Implement Rand10() Using Rand7() [Medium]（字节/腾讯概率题常客，拒绝采样）
-- [ ] 472. Concatenated Words [Hard]
-- [ ] 642. Design Search Autocomplete System [Hard]
-- [ ] 1268. Search Suggestions System [Medium]
 
 # ============== Round 18 · Hard 终局 mock [Phase: MOCK] ==============
 
@@ -715,3 +686,37 @@ R9–R11 是按“高频”重做已掌握的熟题，没有失败记录作依�
 - [ ] 206. Reverse Linked List [Easy]（5min 极限标准）
 - [ ] 215. Kth Largest Element in an Array [Medium]
 - [ ] 300. Longest Increasing Subsequence [Medium]
+
+## 2026-11-02 移入存档：R14、R16、R17
+
+主线新题暂停至 2027-01，1 月起以 R18 为主；以下三轮面试边际价值低，移出推进队列（依据：`~/workspace/learning/interview-prep/log/decisions.md` 2026-11-02）。
+
+## Round 14 · String 算法 [Phase: NEW]
+
+KMP / Manacher / Rolling Hash，顺带训 Java String API 肌肉记忆。
+
+- [ ] 28. Find the Index of the First Occurrence in a String [Easy]
+- [ ] 214. Shortest Palindrome [Hard]
+- [ ] 459. Repeated Substring Pattern [Easy]
+- [ ] 686. Repeated String Match [Medium]
+- [ ] 1392. Longest Happy Prefix [Hard]
+
+## Round 16 · 博弈 DP [Phase: NEW]
+
+DP 的反向思考分支，Meta / 字节有时出。
+
+- [ ] 877. Stone Game [Medium]
+- [ ] 486. Predict the Winner [Medium]
+- [ ] 464. Can I Win [Medium]
+- [ ] 1140. Stone Game II [Medium]
+
+## Round 17 · Reservoir Sampling + 概率 + Trie 深度变体 [Phase: NEW]
+
+AI 应用 / 推荐系统 / 搜索建议的算法基础。
+
+- [ ] 382. Linked List Random Node [Medium]
+- [ ] 398. Random Pick Index [Medium]
+- [ ] 470. Implement Rand10() Using Rand7() [Medium]（字节/腾讯概率题常客，拒绝采样）
+- [ ] 472. Concatenated Words [Hard]
+- [ ] 642. Design Search Autocomplete System [Hard]
+- [ ] 1268. Search Suggestions System [Medium]
