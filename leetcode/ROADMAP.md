@@ -69,6 +69,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3714. Longest Balanced Substring II [Medium]
 - [x] 3709. Design Exam Scores Tracker [Medium]
 - [x/r] 3710. Maximum Partition Factor [Hard]
+- [x/r] 3703. 移除K-平衡子字符串 [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -319,6 +320,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3720. 大于目标字符串的lexicographically-smallest-permutation-greater-than-target小字典序排列 [x/r]（陌生题，Medium）
 - [ ] 3714. Longest Balanced Substring II [x/r]（陌生题，Medium）
 - [ ] 3710. Maximum Partition Factor [x/r]（陌生题，Hard）
+- [ ] 3703. 移除K-平衡子字符串 [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
