@@ -71,6 +71,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3710. Maximum Partition Factor [Hard]
 - [x/r] 3703. 移除K-平衡子字符串 [Medium]
 - [x] 3699. 锯齿形数组的总数 I [Hard]
+- [x] 3676. 碗子数组的数目 [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
