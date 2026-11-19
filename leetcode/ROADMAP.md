@@ -72,6 +72,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3703. 移除K-平衡子字符串 [Medium]
 - [x] 3699. 锯齿形数组的总数 I [Hard]
 - [x] 3676. 碗子数组的数目 [Medium]
+- [r] 3670. 没有公共位的整数最大乘积 [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -285,6 +286,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3877. Minimum Removals to Achieve Target XOR [r]（陌生题，Medium）
 - [ ] 3825. longest-strictly-increasing-subsequence-with-non-zero-bitwise-and [r]（陌生题，Medium）
 - [ ] 3756. concatenate-non-zero-digits-and-multiply-by-sum-ii [r]（陌生题，Medium）
+- [ ] 3670. 没有公共位的整数最大乘积 [r]（陌生题，Medium）
 
 ## 新轮 [x/r]
 
