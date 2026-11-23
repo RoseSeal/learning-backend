@@ -74,6 +74,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x] 3676. 碗子数组的数目 [Medium]
 - [r] 3670. 没有公共位的整数最大乘积 [Medium]
 - [x] 3665. 统计镜子反射路径数目 [Medium]
+- [x/r] 3660. 跳跃游戏 IX [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
@@ -326,6 +327,7 @@ Java 后端八股的实际落地。配合 JUC 知识体系一起复习。
 - [ ] 3714. Longest Balanced Substring II [x/r]（陌生题，Medium）
 - [ ] 3710. Maximum Partition Factor [x/r]（陌生题，Hard）
 - [ ] 3703. 移除K-平衡子字符串 [x/r]（陌生题，Medium）
+- [ ] 3660. 跳跃游戏 IX [x/r]（陌生题，Medium）
 
 ## 旧轮存量
 
