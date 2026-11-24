@@ -77,6 +77,7 @@ Console 按记录栏给出建议标记，提交前可改。
 - [x/r] 3660. 跳跃游戏 IX [Medium]
 - [x/r] 3685. 含上限元素的子序列和 [Medium]
 - [x/r] 3690. 拆分合并数组 [Medium]
+- [x] 3654. 删除可整除和后的最小数组和 [Medium]
 
 # ============== Round 1 · Union-Find [Phase: NEW] ==============
 
